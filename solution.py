@@ -35,10 +35,11 @@ print('Ex 5')
 
 
 def factorial():
-	number = 9
+	
 	reserve=1
+	number = 9
 	for res in range(9):
-		reserve=1
+
 		reserve=reserve*number
 		number =number-1
 	return reserve
