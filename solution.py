@@ -54,3 +54,20 @@ def falls(n):
 			print('outside of range')
 
 print(falls(5))
+
+print('Ex 7')
+sample =['T', 'h','e','q','u','i','c','k','B','r','o','w','F','o','x']
+
+def count():
+	counter = 0
+	counter2=0
+	for i in sample:
+		if (i.isupper()):
+			counter+=1
+		elif(i.islower()):
+			counter2+=1
+	return counter,counter2
+print(count())
+
+
+
