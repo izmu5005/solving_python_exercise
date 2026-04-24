@@ -29,3 +29,17 @@ def concat():
 	return string
 print(f'Expected Output: ',concat())
 
+
+print('Ex 5')
+# 3! =1*2*3
+
+
+def factorial():
+	number = 9
+	reserve=1
+	for res in range(9):
+		reserve=1
+		reserve=reserve*number
+		number =number-1
+	return reserve
+print(factorial())
