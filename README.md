@@ -5,5 +5,5 @@
 
 Write a Python program to reverse a string.
 
-Sample String : "1234abcd"
+Sample String : "1234abcd"\n
 Expected Output : "dcba4321"
