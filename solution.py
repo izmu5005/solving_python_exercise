@@ -44,3 +44,13 @@ def factorial():
 		number =number-1
 	return reserve
 print(factorial())
+
+print('ex 7')
+def falls(n):
+	for i in range(1,10):
+		if (n > 1 and n < 10):
+			print(f'in range: ', n)
+		else:
+			print('outside of range')
+
+print(falls(5))
