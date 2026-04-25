@@ -68,6 +68,6 @@ def count():
 			counter2+=1
 	return counter,counter2
 print(count())
-
+print('Ex 10')
 
 
