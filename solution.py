@@ -69,5 +69,13 @@ def count():
 	return counter,counter2
 print(count())
 print('Ex 10')
+sample=[1,2,3,4,5,6,7,8,9]
+result=[]
+def even():
+    for i in sample:
+        if(i%2==0):
+            result.append(i)
+    return result
+print(even())
 
 
